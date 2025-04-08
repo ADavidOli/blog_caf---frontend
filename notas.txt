@@ -1,0 +1,21 @@
+para mejorar el performance podemos cargar las imagenes de acuerdo a como se va viendo.
+el atributo va de acuerdo a cada img
+
+preload: 
+    carga inmediatamente elementos que se deben de considerar lo más pronto, solo se le hace a lo que requieras inmediatamente
+
+prefetch:
+    carga la siguiente pagina que esperamos que el usuario visite para dar una mejor experiencia depende mucho del proyecto en el que estes.
+    para ello puedes usar herramientas como google analitics
+
+webp y picture
+    normalmente las imagenes jpg en la web tienen peso excesivo arruinando el performance
+    para ello podemos cargar imagenes webp pero con la etiqueta picture
+    no sin antes considerar las imagenes jpg para navegadores que no soporten imagenes webp
+
+    la forma de hacerlo directo en css es con mordernizr es una libreria de js
+    todo esto con base al performance
+etiquetas Meta 
+    hacen que el sistema en web se vea bien de acuerdo a cada dispositivo
+    es decir que se muestre de acuerdo a forma proporsional
+    
